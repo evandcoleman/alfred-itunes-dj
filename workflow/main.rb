@@ -2,9 +2,9 @@
 # encoding: utf-8
 
 require 'rubygems' unless defined? Gem # rubygems is only needed in 1.8
-require_relative "./bundle/bundler/setup"
+require "./bundle/bundler/setup"
 require "alfred"
-require_relative './dacpclient/lib/dacpclient'
+require './lib/dacpclient'
 require 'socket'
 
 Alfred.with_friendly_error do |alfred|

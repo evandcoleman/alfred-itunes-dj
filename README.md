@@ -16,6 +16,7 @@ Invoke Alfred and type `pair ` followed by a 4-digit numeric pin number and hit 
 ### Step 3: Pair With iTunes
 Switch to iTunes and click the devices button in the top right as shown in the screenshot below.
 ![image](screenshots/setup1.png)
+
 Then click on Alfred in the devices list and enter your 4-digit pin.
 
 ## Usage
@@ -34,4 +35,4 @@ Just download the [alfred-up-next.alfredworkflow](https://github.com/edc1591/alf
 
 ### Advanced Users
 
-You can `clone` or `fork` this repository and use `rake install` to install it. This method creates a symlink in the Alfred workflows directory. This method is more suitable for developers.
+You can `clone` or `fork` this repository, `git submodule update --init` and then use `rake install` to install it. This method creates a symlink in the Alfred workflows directory. This method is more suitable for developers.

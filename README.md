@@ -36,3 +36,7 @@ Just download the [alfred-up-next.alfredworkflow](https://github.com/edc1591/alf
 ### Advanced Users
 
 You can `clone` or `fork` this repository, `git submodule update --init` and then use `rake install` to install it. This method creates a symlink in the Alfred workflows directory. This method is more suitable for developers.
+
+## Screenshots
+
+![image](screenshots/screenshot1.png)

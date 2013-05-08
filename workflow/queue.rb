@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 require 'rubygems' unless defined? Gem # rubygems is only needed in 1.8
-require "./bundle/bundler/setup"
-require './dacpclient/lib/dacpclient'
+require_relative "./bundle/bundler/setup"
+require_relative './dacpclient/lib/dacpclient'
 require 'socket'
 
 client = DACPClient.new "Alfred", 'localhost', 3689

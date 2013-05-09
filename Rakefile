@@ -52,6 +52,7 @@ end
 desc "Install to Alfred"
 task :install => [:config] do
   ln_sf File.expand_path($config["path"]), File.join(workflow_home, $config["bundleid"])
+  ln_sf File.expand_path("workflow/ruby-dacpclient/lib/"), File.expand_path("workflow/lib")
 end
 
 desc "Unlink from Alfred"

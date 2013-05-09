@@ -8,7 +8,7 @@ After installing (see the installation section below), you'll need to pair Alfre
 
 ### Step 1: Open iTunes
 
-iTunes must be open to complete the pair process.
+iTunes must be open to complete the pairing process.
 
 ### Step 2: Begin Paring
 Invoke Alfred and type `pair ` followed by a 4-digit numeric pin number and hit enter.
@@ -40,3 +40,8 @@ You can `clone` or `fork` this repository, `git submodule update --init` and the
 ## Screenshots
 
 ![image](screenshots/screenshot1.png)
+
+## TODO
+* Make searching faster
+* Allow searching using artists and albums
+* Add album artwork to search results

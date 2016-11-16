@@ -2,7 +2,7 @@
 
 A workflow for Alfred that queues up songs to be played next in iTunes.
 
-## Usage
+## Setup
 
 ### Pairing
 

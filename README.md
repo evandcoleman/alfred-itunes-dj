@@ -12,7 +12,7 @@ On your first use, you'll need to pair Alfred with iTunes just like you would wi
 
     ![image](images/screenshot-pair.png)
 
-3. Switch to iTunes and click the devices button in the top right as shown screenshot below.
+3. Switch to iTunes and click the devices button in the top left as shown screenshot below.
 
     ![](images/pair.png)
 

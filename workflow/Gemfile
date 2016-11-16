@@ -1,5 +1,4 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "plist"
-gem "alfred-workflow"
-gem "dnssd"
+gem 'alfred-workflow'
+gem 'dacpclient'

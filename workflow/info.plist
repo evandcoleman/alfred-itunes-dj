@@ -4,61 +4,120 @@
 <dict>
 	<key>bundleid</key>
 	<string>net.evancoleman.alfred-up-next</string>
+	<key>category</key>
+	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
-		<key>0700EA77-9521-43D1-9D7D-5731458A66D2</key>
+		<key>0434E23B-FEE6-40F6-8AF5-9F49726F2C8A</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>42D05639-3F0F-4760-8214-317167E4173D</string>
+				<string>73030AD1-2D29-4613-8658-76091DA70B21</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
-		<key>133DA8D0-00C9-49CD-91E2-DFCE511C03E6</key>
+		<key>0825FCD4-168E-47C2-9BCB-E3AA8D31677E</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>A8614703-EFE4-4634-81F8-66BBDFD49C0A</string>
+				<string>1E1D8811-A609-4A4A-820E-4D6329DBEC8C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1E1D8811-A609-4A4A-820E-4D6329DBEC8C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7F5527FC-703B-48B4-9784-0DEDBEA0BAAC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>21557827-8003-42B7-A042-16D4C9278FEC</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>0700EA77-9521-43D1-9D7D-5731458A66D2</string>
+				<string>DC15C288-2110-40AC-83AF-B8EDB7693BC5</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>FF9F84F5-1CCC-42DB-BAF8-97F7C8E73921</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
-		<key>878A774A-9E3E-4577-96C2-9A797F23D155</key>
+		<key>73030AD1-2D29-4613-8658-76091DA70B21</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>133DA8D0-00C9-49CD-91E2-DFCE511C03E6</string>
+				<string>1FC3F8EC-BA61-4E4C-B433-1F1D27E09024</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DC15C288-2110-40AC-83AF-B8EDB7693BC5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0434E23B-FEE6-40F6-8AF5-9F49726F2C8A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FF9F84F5-1CCC-42DB-BAF8-97F7C8E73921</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0825FCD4-168E-47C2-9BCB-E3AA8D31677E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Evan Coleman</string>
 	<key>description</key>
-	<string>Add songs to Up Next in iTunes</string>
+	<string>Queue songs to be played next in iTunes</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Up Next</string>
+	<string>iTunes DJ</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -68,98 +127,181 @@
 				<false/>
 				<key>onlyshowifquerypopulated</key>
 				<false/>
-				<key>output</key>
-				<integer>0</integer>
 				<key>removeextension</key>
 				<false/>
-				<key>sticky</key>
-				<false/>
 				<key>text</key>
-				<string>Pairing Successful!</string>
+				<string>Queued up {var:title} by {var:artist}</string>
 				<key>title</key>
-				<string>Alfred Up Next</string>
+				<string>iTunes DJ</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>A8614703-EFE4-4634-81F8-66BBDFD49C0A</string>
+			<string>1FC3F8EC-BA61-4E4C-B433-1F1D27E09024</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
-				<integer>127</integer>
+				<integer>102</integer>
 				<key>script</key>
-				<string>/usr/bin/ruby ./dopair.rb {query}</string>
+				<string>require './itunesdj'
+
+dj = ITunesDJ.new
+dj.login
+dj.queue ARGV[0]
+
+puts ARGV[0]</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>133DA8D0-00C9-49CD-91E2-DFCE511C03E6</string>
+			<string>0434E23B-FEE6-40F6-8AF5-9F49726F2C8A</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>62</integer>
-				<key>keyword</key>
-				<string>pair</string>
-				<key>runningsubtext</key>
-				<string>Pairing...</string>
-				<key>script</key>
-				<string>/usr/bin/ruby ./pair.rb {query}</string>
-				<key>subtext</key>
-				<string>Enter 4-Digit, Numeric Pin</string>
-				<key>title</key>
-				<string>Pair Up Next With iTunes</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string>PAIR</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>DC15C288-2110-40AC-83AF-B8EDB7693BC5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{var:confirm_queued}</string>
+				<key>matchcasesensitive</key>
 				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>878A774A-9E3E-4577-96C2-9A797F23D155</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>escaping</key>
-				<integer>126</integer>
-				<key>script</key>
-				<string>/usr/bin/ruby ./queue.rb {query}</string>
-				<key>type</key>
+				<key>matchmode</key>
 				<integer>0</integer>
+				<key>matchstring</key>
+				<string>true</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.utility.filter</string>
 			<key>uid</key>
-			<string>0700EA77-9521-43D1-9D7D-5731458A66D2</string>
+			<string>73030AD1-2D29-4613-8658-76091DA70B21</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
-				<integer>62</integer>
+				<integer>102</integer>
 				<key>keyword</key>
-				<string>next</string>
+				<string>dj</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>1</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
 				<key>runningsubtext</key>
-				<string>working...</string>
+				<string>Working...</string>
 				<key>script</key>
-				<string>/usr/bin/ruby ./main.rb {query}</string>
+				<string>require './itunesdj'
+require 'alfred'
+require 'json'
+
+dj = ITunesDJ.new
+
+Alfred.with_friendly_error do |alfred|
+  fb = alfred.feedback
+
+  if !dj.is_paired?
+    pin = 4.times.map { Random.rand(10) }
+    pin_str = pin.join
+
+	arg = {
+	  "alfredworkflow" =&gt; {
+		"arg" =&gt; "PAIR",
+		"variables" =&gt; {
+		  "pin" =&gt; "#{pin_str}"
+		}
+	  }
+	}
+
+	fb.add_item({
+	  :uid      =&gt; "",
+	  :title    =&gt; "Pair Alfred With iTunes",
+	  :subtitle =&gt; "Enter pin #{pin_str} in iTunes",
+	  :arg      =&gt; arg.to_json
+	})
+
+	puts fb.to_alfred
+  else
+  	dj.login
+
+	dj.search(ARGV[0])[0..7].each do |song|
+
+	  arg = {
+		"alfredworkflow" =&gt; {
+    		  "arg" =&gt; "#{song.item_id}",
+    		  "variables" =&gt; {
+		    "title" =&gt; "#{song.name}",
+			"artist" =&gt; "#{song.artist}",
+			"album" =&gt; "#{song.album}"
+		  }
+		}
+	  }
+
+	  icon = {:type =&gt; "default", :name =&gt; dj.artwork(song)}
+	  icon ||= {:type =&gt; "fileicon", :name =&gt; "/Applications/iTunes.app"}
+
+  	  fb.add_item({
+  		:uid      =&gt; "#{song.name} - #{song.artist}",
+  		:title    =&gt; "#{song.name} - #{song.artist}",
+  		:subtitle =&gt; "#{song.album}",
+		:icon     =&gt; icon,
+  		:arg      =&gt; arg.to_json
+  	  })
+    end
+
+    puts fb.to_alfred
+  end
+end
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Queue Songs in iTunes</string>
 				<key>title</key>
-				<string>Add To Up Next</string>
+				<string>Play Next in iTunes</string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -167,6 +309,8 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>21557827-8003-42B7-A042-16D4C9278FEC</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -175,58 +319,177 @@
 				<false/>
 				<key>onlyshowifquerypopulated</key>
 				<false/>
-				<key>output</key>
-				<integer>0</integer>
 				<key>removeextension</key>
 				<false/>
-				<key>sticky</key>
-				<false/>
 				<key>text</key>
-				<string>Queued {query}</string>
+				<string>{query}</string>
 				<key>title</key>
-				<string>Alfred Up Next</string>
+				<string>iTunes DJ</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>42D05639-3F0F-4760-8214-317167E4173D</string>
+			<string>7F5527FC-703B-48B4-9784-0DEDBEA0BAAC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Swith to iTunes and enter pin {var:pin}</string>
+				<key>title</key>
+				<string>iTunes DJ</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>0825FCD4-168E-47C2-9BCB-E3AA8D31677E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>require './itunesdj'
+
+query = ARGV[0]
+pin = ENV['pin'].chars
+
+dj = ITunesDJ.new
+
+at_exit do
+  puts "Something went wrong. Please try again." unless dj.is_paired?
+end
+
+dj.pair pin
+
+if dj.is_paired?
+  puts "Pairing successfull!"
+else
+  puts "Something went wrong. Please try again."
+end</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>1E1D8811-A609-4A4A-820E-4D6329DBEC8C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>PAIR</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>FF9F84F5-1CCC-42DB-BAF8-97F7C8E73921</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>See Github for setup instructions:
+https://github.com/edc1591/alfred-itunes-dj</string>
 	<key>uidata</key>
 	<dict>
-		<key>0700EA77-9521-43D1-9D7D-5731458A66D2</key>
+		<key>0434E23B-FEE6-40F6-8AF5-9F49726F2C8A</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
-			<real>240</real>
+			<integer>90</integer>
 		</dict>
-		<key>133DA8D0-00C9-49CD-91E2-DFCE511C03E6</key>
+		<key>0825FCD4-168E-47C2-9BCB-E3AA8D31677E</key>
 		<dict>
+			<key>xpos</key>
+			<integer>450</integer>
 			<key>ypos</key>
-			<real>90</real>
+			<integer>300</integer>
+		</dict>
+		<key>1E1D8811-A609-4A4A-820E-4D6329DBEC8C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>640</integer>
+			<key>ypos</key>
+			<integer>300</integer>
+		</dict>
+		<key>1FC3F8EC-BA61-4E4C-B433-1F1D27E09024</key>
+		<dict>
+			<key>xpos</key>
+			<integer>830</integer>
+			<key>ypos</key>
+			<integer>90</integer>
 		</dict>
 		<key>21557827-8003-42B7-A042-16D4C9278FEC</key>
 		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
 			<key>ypos</key>
-			<real>240</real>
+			<integer>190</integer>
 		</dict>
-		<key>42D05639-3F0F-4760-8214-317167E4173D</key>
+		<key>73030AD1-2D29-4613-8658-76091DA70B21</key>
 		<dict>
+			<key>xpos</key>
+			<integer>710</integer>
 			<key>ypos</key>
-			<real>240</real>
+			<integer>120</integer>
 		</dict>
-		<key>878A774A-9E3E-4577-96C2-9A797F23D155</key>
+		<key>7F5527FC-703B-48B4-9784-0DEDBEA0BAAC</key>
 		<dict>
+			<key>xpos</key>
+			<integer>850</integer>
 			<key>ypos</key>
-			<real>90</real>
+			<integer>300</integer>
 		</dict>
-		<key>A8614703-EFE4-4634-81F8-66BBDFD49C0A</key>
+		<key>DC15C288-2110-40AC-83AF-B8EDB7693BC5</key>
 		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
 			<key>ypos</key>
-			<real>90</real>
+			<integer>120</integer>
+		</dict>
+		<key>FF9F84F5-1CCC-42DB-BAF8-97F7C8E73921</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>330</integer>
 		</dict>
 	</dict>
+	<key>variables</key>
+	<dict>
+		<key>confirm_queued</key>
+		<string>false</string>
+	</dict>
+	<key>version</key>
+	<string>2.0</string>
 	<key>webaddress</key>
 	<string>http://edc.me</string>
 </dict>

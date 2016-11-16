@@ -1,0 +1,5 @@
+inherit_from: ../.rubocop.yml
+
+# Do not introduce global variables.
+GlobalVars:
+  Enabled: false

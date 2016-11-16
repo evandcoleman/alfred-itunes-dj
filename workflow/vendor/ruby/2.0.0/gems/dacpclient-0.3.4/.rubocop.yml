@@ -1,0 +1,12 @@
+# Avoid methods longer than 10 lines of code
+MethodLength:
+  Enabled: false
+Documentation:
+  Enabled: false
+ClassVars:
+  Enabled: false
+ClassLength:
+  Enabled: false
+AllCops:
+  Exclude:
+    - lib/dacpclient/faraday/*

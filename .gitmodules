@@ -1,4 +1,0 @@
-
-[submodule "workflow/ruby-dacpclient"]
-	path = workflow/ruby-dacpclient
-	url = https://github.com/edc1591/ruby-dacpclient.git

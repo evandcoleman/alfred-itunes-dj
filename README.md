@@ -16,7 +16,7 @@ On your first use, you'll need to pair Alfred with iTunes just like you would wi
 
     ![](images/pair.png)
 
-4. Then click on `Alfred iTunes DJ` in the devices list and enter your four-digit pin.
+4. Then click on `Alfred iTunes DJ` in the devices list and enter your four-digit pin. If it fails, just try again.
 
 ## Usage
 

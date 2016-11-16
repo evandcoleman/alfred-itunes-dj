@@ -40,7 +40,7 @@ Alfred DJ only has one configurable setting. If you'd like to receive a notifica
 
 There are a few ways to install this workflow:
 
-1. [Download the Github releases]()
+1. [Download the Github releases](https://github.com/edc1591/alfred-itunes-dj/releases/download/2.0/iTunes.DJ.zip)
 2. [Download from Packal.org]()
 3. Use the source code from this repo.
 

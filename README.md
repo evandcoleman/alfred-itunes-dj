@@ -24,7 +24,7 @@ Usage is incredibly simple. Just type `dj` followed by any combination of a song
 
 ## Configuration
 
-Alfred DJ only has one configurable setting. If you'd like to receive a notification to confirm that a song has been successfully queued, perform the following steps.
+Alfred iTunes DJ only has one configurable setting. If you'd like to receive a notification to confirm that a song has been successfully queued, perform the following steps.
 
 1. Open Alfred's preferences and select the `Workflows` tab.
 

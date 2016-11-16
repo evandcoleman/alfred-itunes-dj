@@ -2,9 +2,7 @@
 
 A workflow for Alfred that queues up songs to be played next in iTunes.
 
-## Setup
-
-### Pairing
+## Pairing
 
 On your first use, you'll need to pair Alfred with iTunes just like you would with the iOS Remote app.
 

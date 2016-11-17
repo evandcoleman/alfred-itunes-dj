@@ -38,7 +38,7 @@ Alfred iTunes DJ only has one configurable setting. If you'd like to receive a n
 
 There are a few ways to install this workflow:
 
-1. [Download the Github releases](https://github.com/edc1591/alfred-itunes-dj/releases/download/2.0/iTunes.DJ.zip)
+1. [Download from Github releases](https://github.com/edc1591/alfred-itunes-dj/releases/download/2.0/iTunes.DJ.zip)
 2. [Download from Packal.org](http://www.packal.org/workflow/itunes-dj)
 3. Use the source code from this repo.
 

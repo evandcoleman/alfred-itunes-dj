@@ -24,7 +24,7 @@ Usage is incredibly simple. Just type `dj` followed by any combination of a song
 
 ## Configuration
 
-Alfred iTunes DJ only has one configurable setting. If you'd like to receive a notification to confirm that a song has been successfully queued, perform the following steps.
+Alfred iTunes DJ only has a few configurable settings.
 
 1. Open Alfred's preferences and select the `Workflows` tab.
 
@@ -32,13 +32,13 @@ Alfred iTunes DJ only has one configurable setting. If you'd like to receive a n
 
     ![](images/variables.png)
 
-3. Set the value of `confirm_queued` to `true` to enable confirmation notifications.
+3. Set the value of `confirm_queued` to `true` to enable confirmation notifications when queuing a song. Set `num_results` to the number of results you'd like to receive.
 
 ## Installation
 
 There are a few ways to install this workflow:
 
-1. [Download from Github releases](https://github.com/edc1591/alfred-itunes-dj/releases/download/2.0/iTunes.DJ.zip)
+1. [Download from Github releases](https://github.com/edc1591/alfred-itunes-dj/releases/download/2.1/iTunes.DJ.zip)
 2. [Download from Packal.org](http://www.packal.org/workflow/itunes-dj)
 3. Use the source code from this repo.
 
